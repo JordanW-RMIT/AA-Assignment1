@@ -48,7 +48,7 @@ class ListDictionary(BaseDictionary):
                 exists = True
         
         if not exists:
-            self.words_frequencies.append(word)
+            self.words_frequencies.append(word_frequency)
             return_value = True
 
         return return_value
